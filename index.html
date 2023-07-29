@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="main header">
+    <h1>Game of Rock Paper & Scissor</h1>
+  </div>
+
+  <div class='winner'>
+    <p id="demo">WINNER :</p>
+    <p id="demo4">TOTAL CHANCES : 10</p>
+  </div>
+  <div id='gameover'>
+    <div id='main' class='main'>
+      <div class='card'>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Logan_Rock_Treen_closeup.jpg/1200px-Logan_Rock_Treen_closeup.jpg"
+          alt="rock">
+        <div><button id='rock' onclick="winFunction(event)">Rock</button></div>
+      </div>
+      <div class='card'>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPd1DoWaKn9c5Tz0rAqdxkXwIuyxJEIPtwyQ&usqp=CAU"
+          alt="rock">
+        <div> <button id='paper' onclick="winFunction(event)">Paper</button></div>
+      </div>
+      <div class='card'>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc4Bogz0RnlSKdtDCTQ4TdtnYHlJqQxNRIYw&usqp=CAU"
+          alt="rock">
+        <div><button id='scissor' onclick="winFunction(event)">Scissor</button></div>
+      </div>
+    </div>
+    <p id="demo2">PLAYER PICKED : </p>
+    <p id="demo3">CPU PICKED : </p>
+  </div>
+
+  <!-- <div class="one">
+    <div class="first">random first</div>
+    <div class="second">random second</div>
+    <div class="third">random third</div>
+  </div> -->
+
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

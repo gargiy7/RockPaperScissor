@@ -1,0 +1,52 @@
+button {
+  padding: 20px;
+  width: 250px;
+  margin: 0 2px 2px 2px;
+  background-color: lightblue;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+  background-color: #083f08;
+  color: #89be89;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.header {
+  background-color: #ea8bdd;
+  border-radius: 50%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid blue;
+  box-shadow: 4px 4px 3px 4px lightblue;
+}
+
+.winner {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+}
+
+.main img {
+  width: 250px;
+  height: 200px;
+  border: 2px solid white;
+}
+
+#gameoverh1 {
+  display: flex;
+  justify-content: center;
+}
